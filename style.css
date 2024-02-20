@@ -8,7 +8,7 @@
 body{
     height: 100vh;
     background-color: #fff;
-    background-size: cover ;
+background-size: cover ;
     background-position: center;
 }
 li{
@@ -16,7 +16,7 @@ li{
 }
 a{
     text-decoration: none;
-    color: #fff;
+    color: #0000;
     font-size: 1rem;
 }
 a:hover{
@@ -45,7 +45,7 @@ header{
     gap: 2rem;
 }
 .navbar .toggle_btn{
-    color: #fff;
+    color: #0000;
     font-size: 1.5rem;
     cursor: pointer;
     display: none;
@@ -65,7 +65,7 @@ header{
 }
 .action_btn:hover{
     scale: 1.05;
-    color: #fff;
+    color: #0000;
 }
 .action_btn:active{
     scale: 0.95;
@@ -111,7 +111,7 @@ section#hero{
     align-items: center;
     justify-content: center;
     text-align: center;
-    color:#fff
+    color:#0000
 }
 
 #hero h1{
