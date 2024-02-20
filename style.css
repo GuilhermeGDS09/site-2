@@ -147,7 +147,7 @@ section#hero{
     background-color: #ffd503;
     border: 1px solid black;
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items:center;
     }
     .spc_tp{
