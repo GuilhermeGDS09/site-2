@@ -145,7 +145,7 @@ section#hero{
     width:max-width;
     height:50px;
     background-color: #ffd503;
-    border: 1px solid black;
+    border: 0px solid black;
     display:flex;
     justify-content:space-between;
     align-items:center;
