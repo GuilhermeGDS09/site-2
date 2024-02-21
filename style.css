@@ -7,7 +7,7 @@
 }
 body{
     height: 100vh;
-    background-color: #D8D3D2;
+    background-color: #E6E6E6;
 background-size: cover ;
     background-position: center;
 }
@@ -16,7 +16,7 @@ li{
 }
 a{
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     font-size: 1rem;
 }
 a:hover{
