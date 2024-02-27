@@ -213,7 +213,8 @@ section#hero{
     width: 100%;
     font-size: 14px;
     font-family: helvetica;
-    position: sticky;
+    bottom: 0;
+    position: fixed;
 }
 .rodape a{
     text-decoration: none;
