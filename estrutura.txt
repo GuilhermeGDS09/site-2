@@ -1,0 +1,38 @@
+Páginas
+
+Sobre a escola (main)
+  infraestrutura
+  horarios
+  civico militar
+  equipe escolar
+
+
+
+
+
+
+
+
+Area do aluno
+	informações de uniforme
+	notas e boletim
+	regras
+
+Apoio para vestibular
+
+
+
+Atividades extracurriculares
+  volei
+  robotica
+  futsal
+  
+Cursos técnicos
+	adm
+	dev sistemas
+
+
+Aplicativos
+  plataformas do governo
+
+
