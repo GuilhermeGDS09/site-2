@@ -260,6 +260,7 @@ div, .extracurricular {
     margin: auto;
     align-items: stretch;
     padding: 60px 10px 40px 10px;
+    bottom: 0;
 }
 .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
     display: flex;
