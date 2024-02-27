@@ -7,19 +7,6 @@ body {
     flex-direction:column;
     height: 100vh;
 }
-.container{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20%;
-    background-image: linear-gradient();
-    background-color: #F4F4F4;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    width: 300px;
-    margin-top: 5%;
-}
 
 .login_container {
     background-image: linear-gradient();
@@ -28,6 +15,7 @@ body {
     border-radius: 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     width: 300px;
+    margin-top: 20%;
 }
 
 .login_container h2 {
