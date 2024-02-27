@@ -11,10 +11,8 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    justify-content:center;
-    align-items:center;
     width:max-width;
-    height:50px;
+    height:290px;
 }
 
 .login_container {
