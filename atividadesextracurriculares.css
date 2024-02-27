@@ -245,6 +245,7 @@ div, .extracurricular {
     font-size: 14px;
     font-family: helvetica;
     position: fixed;
+   bottom: 0;
     
 }
 .rodape a{
