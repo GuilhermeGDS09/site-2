@@ -11,8 +11,6 @@ body{
   background-color: #E6E6E6;
 background-size: cover ;
   background-position: center;
-  display: flex;
-  flex-direction: column;
 }
 li{
   list-style: none;
@@ -246,7 +244,7 @@ div, .extracurricular {
     width: 100%;
     font-size: 14px;
     font-family: helvetica;
-    flex: 1 0 auto;
+    
 }
 .rodape a{
     text-decoration: none;
@@ -262,7 +260,6 @@ div, .extracurricular {
     margin: auto;
     align-items: stretch;
     padding: 60px 10px 40px 10px;
-  flex-shrink: 0;
 }
 .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
     display: flex;
