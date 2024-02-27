@@ -236,7 +236,7 @@ div, .extracurricular {
 .volei1:hover .informacoes, .volei2:hover .informacoes, .futsal1:hover .informacoes ,.futsal2:hover .informacoes ,.robotica:hover .informacoes, .xadrez:hover .informacoes   {
           transform: translateY(0);
 }
-<!-- RODAPÉ-->
+/* RODAPÉ */
 .rodape{
     background-color:#fcd74d ;
     color: black;
