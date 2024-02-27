@@ -12,8 +12,8 @@ body {
     justify-content: center;
     align-items: center;
     width:max-width;
-    height:290px;
-    border:3px solid black;
+    height:300px;
+    margin-top: 10%;
 }
 
 .login_container {
