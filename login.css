@@ -7,7 +7,12 @@ body {
     flex-direction:column;
     height: 100vh;
 }
-
+.container{
+    width:max-width;
+    height:300px;
+    align-items:center;
+    justify-content:space-between;
+}
 .login_container {
     background-image: linear-gradient();
     background-color: #F4F4F4;
