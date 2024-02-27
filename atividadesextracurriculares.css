@@ -244,6 +244,7 @@ div, .extracurricular {
     width: 100%;
     font-size: 14px;
     font-family: helvetica;
+    position: sticky
 }
 .rodape a{
     text-decoration: none;
