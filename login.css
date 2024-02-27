@@ -8,10 +8,11 @@ body {
     height: 100vh;
 }
 .container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     width:max-width;
-    height:300px;
-    align-items:center;
-    justify-content:space-between;
+    height:290px;
 }
 .login_container {
     background-image: linear-gradient();
