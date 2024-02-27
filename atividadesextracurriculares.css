@@ -205,3 +205,33 @@ section#hero{
         opacity: 1;
         right: 0;
       }
+div, .extracurricular {
+           display: inline-block;
+}
+    .volei1, .volei2, .futsal1, .futsal2, .robotica, .xadrez{
+           position: relative;
+           overflow: hidden;
+           width: 303px;
+ 
+}
+
+ img, .volei1, .volei2, .futsal1, .futsal2, .robotica, xadrez{
+           transition: transform 0.5s ease;
+           margin: 1px;
+}
+.informacoes {
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           width: 100%;
+           background-color: rgba(0, 0, 0, 0.7);
+           color: #fff;
+           padding: 5px;
+           box-sizing: border-box;
+           transform: translateY(100%);
+           transition: transform 0.5s ease;
+}
+
+.volei1:hover .informacoes, .volei2:hover .informacoes, .futsal1:hover .informacoes ,.futsal2:hover .informacoes ,.robotica:hover .informacoes, .xadrez:hover .informacoes   {
+          transform: translateY(0);
+}
