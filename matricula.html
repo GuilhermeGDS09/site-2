@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrícula Escolar</title>
+    <link rel="stylesheet" href="matricula.css">
+</head>
+<body>
+    <h2>Formulário de Intresse em Matrícula Escolar</h2>
+    <form action="/submit_form.php" method="POST">
+        <div class="form-group">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required>
+        </div>
+
+        <div class="form-group">
+            <label for="escola">Escola anterior:</label>
+            <input type="text" id="escola" name="escola">
+        </div>
+
+        <div class="form-group">
+            <label for="serie">Série desejada:</label>
+            <select id="serie" name="serie" required>
+                
+                 <option value="1">1º  Ano do Ensino Médio Técnico em Análise e Projeto de Sistemas</option>
+                <option value="2">1º  Ano do Ensino Médio Técnico em Administração </option>
+                <option value="3">1º Ano do Ensino Médio</option>
+                <option value="4">2º Ano do Ensino Médio</option>
+                <option value="5">3º Ano do Ensino Médio</option>
+            </select>
+        </div>
+
+       
+        <div class="form-group">
+            <label for="mensagem">Mensagem adicional:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
+        </div>
+      
+      <div class="form-group">
+      <label for="email">Telefone</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+        <br>
+
+
+        
+        <div class="form-group">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+          
+         
+        </div>
+    </form>
+</body>
+</html>
