@@ -10,3 +10,22 @@
 ul li:hover .dropdown-content {
   display: block;
 }
+.topo_pagina{
+  width:max-width;
+  height:60px;
+  background-color: #ffd503;
+  border: none;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  }
+  .spc_tp{
+  width:60px;
+  height:60px;
+  }
+  .spc_yp_logo{
+    width: 58px;
+    height: 58px;
+    background-color: #fff;
+    border: 1px solid black;
+  }
