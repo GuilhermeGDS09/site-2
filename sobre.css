@@ -17,6 +17,7 @@ ul li:hover .dropdown-content {
   display:flex;
   justify-content:space-between;
   align-items:center;
+  margin-bottom:20%;
   }
   .spc_tp{
   width:60px;
