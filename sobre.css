@@ -1,1 +1,12 @@
-
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fddf72;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  padding: 12px;
+  z-index: 1;
+}
+ul li:hover .dropdown-content {
+  display: block;
+}
