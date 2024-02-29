@@ -11,23 +11,13 @@ ul li:hover .dropdown-content {
   display: block;
 }
 .topo_pagina{
-  width:900width;
+  width:max-width;
   height:60px;
   background-color: #ffd503;
+  border: none;
   display:flex;
   justify-content:space-between;
   align-items:center;
-  margin-bottom:150%
-  }
-  .spc_tp{
-  width:60px;
-  height:60px;
-  }
-  .spc_yp_logo{
-    width: 58px;
-    height: 58px;
-    background-color: #fff;
-    border: 1px solid black;
   }
 .rodape{
     background-color:#fcd74d ;
@@ -68,4 +58,22 @@ ul li:hover .dropdown-content {
     padding: 10px;
     margin: 0px;
     text-align: center;
+}
+.sombraBox{
+  width: 20%;
+  border: 3px solid #708090;
+  padding: 10px;
+  margin: 10%;
+  box-shadow: 5px 5px #708090 ;
+}
+.sombraBox{
+  display: flex;
+  align-items: center;
+}
+.sombraBox-content {
+  width: 80%;
+  border: 3px solid #708090;
+  padding: 10px;
+  margin: 10%;
+  box-shadow: 5px 5px #708090;
 }
