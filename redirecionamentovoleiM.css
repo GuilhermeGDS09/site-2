@@ -234,7 +234,11 @@ header{
         opacity: 1;
         right: 0;
       }
+div, .voleiM {
+           display: inline-block;
+}
 /* RODAPÉ */
+
 .rodape{
     background-color:#fcd74d ;
     color: black;
