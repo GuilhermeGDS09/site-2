@@ -2,11 +2,11 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrícula Escolar</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scal=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="atividadesextracurriculares.css">
-    <title>Site da escola</title>
+    <link rel="stylesheet" href="matricula.css">
 </head>
 <body>
     <div class="topo_pagina">
@@ -28,15 +28,15 @@
         <div class="dropdown_menu">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="Sobre">Sobre</a></li>
-            <li><a href="Matricule-se">Matricule-se</a></li>
+            <li><a href="matricula.html">Matricule-se</a></li>
             <li><a href="Contatos">Contatos</a></li>
             <li><a href="login.html">Login</a></li>
         </div>
         </div>
         </div>
-           <div class="menu-linha">
+         <div class="menu-linha">
             <a href= "login.html" target="none" ><button class="button"><span>Login</span></button></a>
-            <a href= "matricula.html" target="none" ><button class="button"><span>Matricule-se</span></button></a>
+            <a href= "matricula.html" target="blank" ><button class="button"><span>Matricule-se</span></button></a>
             <a href= "index.html" target="none" ><button class="button"><span>Início</span></button></a>
             <a href= "sobre.html" target="none" ><button class="button"><span>Sobre </span></button></a>
             <a href= "areadoaluno.html" target="none" > <button class="button"><span>Área do aluno </span></button></a>
@@ -44,10 +44,70 @@
             <a href= "atividadesextracurriculares.html" target="none" > <button class="button"><span>Atividades extracurriculares </span></button></a>
             <a href= "cursos.html" target="none" >  <button class="button"><span>Cursos técnicos </span></button></a>
             <a href= "apps.html" target="none" >  <button class="button"><span>Apps do Governo </span></button></a>
+             <a href= "sobre.html" target="none" ><button class="button"><span>Sobre</span></button></a>
          </div>
-</body>
-<!RODAPÉ>
-<footer class="rodape" id="contato">
+    <main>
+    <br>
+    <h2>Formulário de Intresse em Matrícula Escolar</h2>
+    <form action="/submit_form.php" method="POST">
+        <div class="form-group">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required>
+        </div>
+
+        <div class="form-group">
+            <label for="escola">Escola anterior:</label>
+            <input type="text" id="escola" name="escola">
+        </div>
+
+        <div class="form-group">
+            <label for="serie">Série desejada:</label>
+            <select id="serie" name="serie" required>
+                
+                 <option value="1">1º  Ano do Ensino Médio Técnico em Análise e Projeto de Sistemas</option>
+                <option value="2">1º  Ano do Ensino Médio Técnico em Administração </option>
+                <option value="3">1º Ano do Ensino Médio</option>
+                <option value="4">2º Ano do Ensino Médio</option>
+                <option value="5">3º Ano do Ensino Médio</option>
+            </select>
+        </div>
+
+       
+        <div class="form-group">
+            <label for="mensagem">Mensagem adicional:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
+        </div>
+      
+      <div class="form-group">
+      <label for="phone">
+  Insira seu Telefone:<br />
+</label>
+<input type="tel" id="phone" name="phone" required />
+
+      <br>
+        <br>
+
+
+        
+        <div class="form-group">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+          
+         
+        </div>
+    </form>
+        
+    <footer class="rodape" id="contato">
     <div class="rodape-div">
 
         <div class="rodape-div-1">
@@ -88,3 +148,5 @@
     </div>
     <p class="rodape-direitos">Copyright © 2023 – Todos os Direitos Reservados.</p>
 </footer>
+</body>
+</html>
