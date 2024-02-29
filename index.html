@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scal=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    
+
     <title>Site da escola</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
         <div class="spc_yp_logo">
             <a href="index.html"><img src="https://i.ibb.co/h9xzKzb/46-Sem-Titulo-20240221095037.png" width="60px" height="60" alt="yp_logo.png"></a> 
         </div>
-        <h1 style="font-size: 20px; text-align: center; width: 95%;">Colégio YVONE PIMENTEL, C E-EF M</h1>
+        <h1 style="font-size: 20px; text-align: center; width: 100%;">Colégio YVONE PIMENTEL, C E-EF M</h1>
         <div class="navbar">
             <ul class="links">
                 <li><a href="Sobre">Sobre</a></li>
@@ -37,23 +37,25 @@
         </div>
          <div class="menu-linha">
             <a href= "login.html" target="none" ><button class="button"><span>Login</span></button></a>
-            <a href= "matricula.html" target="blank" ><button class="button"><span>Matricule-se</span></button></a>
             <a href= "index.html" target="none" ><button class="button"><span>Início</span></button></a>
-            <a href= "sobre.html" target="none" ><button class="button"><span>Sobre </span></button></a>
+            <a href= "index.html" target="none" ><button class="button"><span>Sobre </span></button></a>
             <a href= "areadoaluno.html" target="none" > <button class="button"><span>Área do aluno </span></button></a>
             <a href= "enem.html" target="none" >  <button class="button"><span>Enem </span></button></a>
             <a href= "atividadesextracurriculares.html" target="none" > <button class="button"><span>Atividades extracurriculares </span></button></a>
             <a href= "cursos.html" target="none" >  <button class="button"><span>Cursos técnicos </span></button></a>
             <a href= "apps.html" target="none" >  <button class="button"><span>Apps do Governo </span></button></a>
-             <a href= "sobre.html" target="none" ><button class="button"><span>Sobre</span></button></a>
          </div>
+  
     <main>
-        <section id="hero">
-            <h1 style="color:#000">Bem Vindo</h1>
-            <p style="color:#000">Somos o Colégio Civico Militar Yvone Pimentel é um prazer recebelo em nosso site!</p>
-        </section>
-        <div class="slides" style="width:100%; height: 10%;" >
-            
+     <section id="hero">
+         <h1 style="color:#000">Bem Vindo</h1>
+         <p style="color:#000">Somos o Colégio Civico Militar Yvone Pimentel é um prazer recebelo em nosso site!</p>
+       
+       
+        
+      </section>
+      
+      <div class="slides" style="width:100%; height: 10%;" >
        <img class="mySlides" src="frente.jpeg" style="width:100%">
         <img class="mySlides" src="fundo.jpeg" style="width:100%">
         <img class="mySlides" src="ginasio.jpeg"style="width: 100%">
@@ -68,7 +70,7 @@
         <img class="mySlides" src="esqueleto.jpeg"style="width: 100%">
       </div>
     </main>
-    
+
     <footer class="rodape" id="contato">
     <div class="rodape-div">
 
@@ -110,6 +112,7 @@
     </div>
     <p class="rodape-direitos">Copyright © 2023 – Todos os Direitos Reservados.</p>
 </footer>
+  
     <script>
         const togglebtn = document.querySelector('.toggle_btn')
         const togglebtnicon = document.querySelector('.toggle_btn i')
@@ -123,6 +126,20 @@
             ? 'fa-solid fa-xmark'
             : 'fa-solid fa-bars'
         }
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
     </script>
 </body>
 </html>
