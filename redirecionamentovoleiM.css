@@ -234,7 +234,7 @@ header{
         opacity: 1;
         right: 0;
       }
-
+/* RODAPÉ */
 .rodape{
     background-color:#fcd74d ;
     color: black;
@@ -242,7 +242,9 @@ header{
     width: 100%;
     font-size: 14px;
     font-family: helvetica;
-    position: sticky;
+    position: fixed;
+   bottom: 0;
+    
 }
 .rodape a{
     text-decoration: none;
@@ -258,6 +260,7 @@ header{
     margin: auto;
     align-items: stretch;
     padding: 60px 10px 40px 10px;
+    bottom: 0;
 }
 .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
     display: flex;
