@@ -145,13 +145,7 @@ bottom: 30%;
   background-color: #ffffff; 
   border: 1px solid #000000; 
   padding: 20px; 
-}
-.slides{
- border-width: 10%;
-  height: 50%;
-  width: 100%;
-  
-}
+}   
 /* responsive deisign */
 @media(max-width: 3000px){
   .navbar .links,
@@ -244,7 +238,7 @@ bottom: 30%;
     width: 100%;
     font-size: 14px;
     font-family: helvetica;
-    position: sticky;
+    position: down;
 }
 .rodape a{
     text-decoration: none;
