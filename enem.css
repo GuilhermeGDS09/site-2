@@ -1,3 +1,22 @@
+
+
+ul li {font-size: 20px;}
+p1 {font-size: 30px;}
+body {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.sombraBox {
+  width: 90%;
+  border: 3px solid 	#708090;
+  padding: 50px;
+  margin: 30px;
+  box-shadow: 5px 10px 	#708090;
+}
+
 .topo_pagina{
 width:max-width;
 height:60px;
