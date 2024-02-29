@@ -237,6 +237,7 @@ header{
 div, .voleiM {
            display: inline-block;
             padding-bottom: 40px;
+           overflow: auto;
 }
 /* RODAPÉ */
 .rodape{
