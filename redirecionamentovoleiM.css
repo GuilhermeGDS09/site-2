@@ -238,7 +238,6 @@ div, .voleiM {
            display: inline-block;
 }
 /* RODAPÉ */
-
 .rodape{
     background-color:#fcd74d ;
     color: black;
@@ -246,9 +245,7 @@ div, .voleiM {
     width: 100%;
     font-size: 14px;
     font-family: helvetica;
-    position: fixed;
-   bottom: 0;
-    
+    position: sticky;
 }
 .rodape a{
     text-decoration: none;
@@ -264,7 +261,6 @@ div, .voleiM {
     margin: auto;
     align-items: stretch;
     padding: 60px 10px 40px 10px;
-    bottom: 0;
 }
 .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
     display: flex;
@@ -276,7 +272,7 @@ div, .voleiM {
     color: black;
 }
 .rodape-direitos{
-    width: calc(100% - 20px);
+    width: max-width;
     background-color: black;
     padding: 10px;
     margin: 0px;
