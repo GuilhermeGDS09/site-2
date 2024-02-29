@@ -240,7 +240,7 @@ section#hero{
     color: black;
 }
 .rodape-direitos{
-    width: max-content;
+    width: max-width;
     background-color: black;
     padding: 10px;
     margin: 0px;
