@@ -1,8 +1,16 @@
 
 
-ul li {font-size: 20px;}
+ul li {font-size: 30px;}
 p1 {font-size: 30px;}
+h1 { color: #F3D307;
+   text-shadow: 5px 10px #F0EEEE;
+   }
+h2 { color: #F3D307;
+    text-shadow: 5px 10px #F0EEEE;
+
+}
 body {
+  background-color: #FEFDFA;
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -10,12 +18,26 @@ body {
 }
 
 .sombraBox {
-  width: 90%;
-  border: 3px solid 	#708090;
+  position: absolute;
+  right: 25%;
+  text-align: center;
+  width: 65%;
+  border: 3px solid  #708090; 
   padding: 50px;
   margin: 30px;
-  box-shadow: 5px 10px 	#708090;
+  box-shadow: 5px 10px #F0EEEE;
 }
+.sombraBox2 {
+  position: absolute;
+  left: 72.3%;
+  text-align: center;
+  width: 20%;
+  border: 3px solid  #708090; 
+  padding: 50px;
+  margin: 30px;
+  box-shadow: 5px 10px #F0EEEE;
+}
+
 
 .topo_pagina{
 width:max-width;
