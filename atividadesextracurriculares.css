@@ -290,3 +290,52 @@ div, .extracurricular {
         padding: 60px 0px 40px 0px;
     }
 }
+<--doctype css cursos-->
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: ##f4f4f4;
+        color: #333;
+    }
+
+    header {
+        background-color: #fcd74d;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 28px;
+    }
+
+    select {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    section {
+        padding: 20px;
+        margin: 20px 0;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2, h3, h4 {
+        color: #;
+    }
+
+    p {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+</style>
+
