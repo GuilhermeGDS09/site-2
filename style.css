@@ -275,7 +275,7 @@ bottom: 30%;
     color: black;
 }
 .rodape-direitos{
-    width:calc(50% - 20px);
+    width:max-width;
     background-color:#000;
     padding: 10px;
     margin: 0px;
