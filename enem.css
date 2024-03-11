@@ -1,16 +1,15 @@
 
 
-ul li {font-size: 30px;}
+ul li {font-size: 20px;}
 p1 {font-size: 30px;}
 h1 { color: #F3D307;
-   text-shadow: 5px 10px #F0EEEE;
-   }
+ text-shadow: 5px 10px #F0EEEE;
+ }
 h2 { color: #F3D307;
     text-shadow: 5px 10px #F0EEEE;
 
 }
 body {
-  background-color: #FEFDFA;
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -21,7 +20,7 @@ body {
   position: absolute;
   right: 25%;
   text-align: center;
-  width: 65%;
+  width: 45%;
   border: 3px solid  #708090; 
   padding: 50px;
   margin: 30px;
@@ -37,7 +36,6 @@ body {
   margin: 30px;
   box-shadow: 5px 10px #F0EEEE;
 }
-
 
 .topo_pagina{
 width:max-width;
