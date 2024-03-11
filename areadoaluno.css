@@ -102,22 +102,6 @@ header{
   justify-content: center;
 }
 
-/* Hero */
-
-section#hero{
-  height: calc(100vh - 60px);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color:#0000
-}
-
-#hero h1{
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
 
 
 /* responsive deisign */
@@ -213,8 +197,7 @@ section#hero{
     width: 100%;
     font-size: 14px;
     font-family: helvetica;
-    bottom: 0;
-    position: fixed;
+    position: sticky;
 }
 .rodape a{
     text-decoration: none;
@@ -241,7 +224,7 @@ section#hero{
     color: black;
 }
 .rodape-direitos{
-    width: calc(100% - 20px);
+    width: max-width;
     background-color: black;
     padding: 10px;
     margin: 0px;
