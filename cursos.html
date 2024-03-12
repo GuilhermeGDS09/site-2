@@ -54,21 +54,56 @@
     <title>Curso técnico</title>
 </head>
 <body>
+     <!DOCTYPE inicio dos cursos>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso técnico</title>
+</head>
+<body>
     <header>
         <h1>Bem-vindo a nossa página sobre os nossos Cursos Técnicos</h1>
-        <h1>selecione o curso de interresse</h1>
-         <select id="serie" name="serie" required>
-<br>     
-                 <option value="1">Análise e Projeto de Sistemas</option>
-                <option value="2">Técnico em Administração </option>
-            </select>
-    </header> 
+       <html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecionamento com Select</title>
+  <script>
+    function redirecionar() {
+      var select = document.getElementById("serie");
+      var opcaoSelecionada = select.options[select.selectedIndex].value;
+
+      // Adicione condições para redirecionar com base na opção selecionada
+      if (opcaoSelecionada === "1") {
+        window.location.href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default_default";
+      } else if (opcaoSelecionada === "2") {
+        window.location.href = "url_para_tecnico_em_administracao";
+      }
+    }
+  </script>
+</head>
+<body>
+
+<form>
+  <label for="serie">Escolha o curso de interrese:</label>
+  <select id="serie" name="serie" required>
+    <option value="1">Análise e Projeto de Sistemas</option>
+    <option value="2">Técnico em Administração</option>
+  </select>
+  <button type="button" onclick="redirecionar()">Ir para o curso</button>
+</form>
+
+</body>
+</html>
+
+    </header>
      <section>
     <h3>Aqui iremos falar um pouco sobre cada curso técnico</h3>
     <h4>Curso de Análise e Projeto de Sistemas</h4>
     <p>O curso tem como objetivo principal capacitar os estudantes a entenderem as necessidades dos usuários e traduzi-las em soluções tecnológicas eficazes. Durante a formação, os alunos adquirem conhecimentos sólidos em análise de requisitos, modelagem de sistemas, design de software e gestão de projetos.</p>
  <h3>algumas das habilidades que você pode desenvolver</h3>
-
+-
 <p>Análise de Requisitos: Os alunos aprendem a identificar e compreender as necessidades dos usuários, traduzindo esses requisitos em especificações claras para o desenvolvimento do sistema.
 
 Modelagem de Sistemas: Utilizando ferramentas e técnicas, os estudantes aprendem a criar modelos que representam o funcionamento do sistema, facilitando a compreensão e comunicação entre desenvolvedores e clientes.
@@ -94,16 +129,11 @@ Em resumo, o curso técnico em administração é uma escolha educacional estrat
    </section>
    
     <section>
-        <p>Nossa escola oferece uma ótima oportunidade para impulsionar sua carreira, aproveite.</p>
-    </section>
-
-<html lang="pt-br">
-<h-ea-d>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cursos Técnicos</title>
-</body>
-</html>
+        <p>Nossa escola oferece uma ótima oportunidade para impulsionar sua carre<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
 
     
     <footer class="rodape" id="contato">
