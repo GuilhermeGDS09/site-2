@@ -262,7 +262,12 @@ section#hero{
   width: 250px;
   height: 250px;
   float: left;
-      padding: 5px;
-      padding-left: 25px;
-      margin: -15px 10px 10px 0;
+  padding: 5px;
+  padding-left: 35px;
+  margin: -15px 10px 10px 0;
+}
+.text{
+  font-style: open-sans;
+  font-size: 20px;
+  color: 000;
 }
