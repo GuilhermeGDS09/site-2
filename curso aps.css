@@ -265,7 +265,6 @@ section#hero{
     }
 }
 <--doctype css cursos-->
-<style>
     body {
         font-family: 'Arial', sans-serif;
         line-height: 1.6;
@@ -311,6 +310,7 @@ section#hero{
     p:last-child {
         margin-bottom: 0;
     }
+
 /* RODAPÉ */
 .rodape{
     background-color:#fcd74d ;
