@@ -263,7 +263,7 @@ section#hero{
   height: 250px;
   float: left;
   padding: 5px;
-  padding-left: 100px;
+  margin-left: 100px;
   margin: -15px 10px 10px 0;
 }
 .text{
@@ -271,4 +271,5 @@ section#hero{
   font-style: open-sans;
   font-size: 20px;
   color: black;
+  margin-left: 20px;
 }
