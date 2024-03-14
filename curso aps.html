@@ -46,6 +46,24 @@
             <a href= "apps.html" target="none" >  <button class="button"><span>Apps do Governo </span></button></a>
          </div>
   <section>
+      <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecionamento com Select</title>
+  <script>
+    function redirecionar() {
+      var select = document.getElementById("serie");
+      var opcaoSelecionada = select.options[select.selectedIndex].value;
+
+      // Adicione condições para redirecionar com base na opção selecionada
+      if (opcaoSelecionada === "1") {
+        window.location.href = "curso aps.html";
+      } else if (opcaoSelecionada === "2") {
+        window.location.href = "curso adm.html";
+      }
+    }
+  </script>
+</head>
 <h4>Curso de Análise e Projeto de Sistemas</h4>
     <p>O curso tem como objetivo principal capacitar os estudantes a entenderem as necessidades dos usuários e traduzi-las em soluções tecnológicas eficazes. Durante a formação, os alunos adquirem conhecimentos sólidos em análise de requisitos, modelagem de sistemas, design de software e gestão de projetos.</p>
  <h3>algumas das habilidades que você pode desenvolver</h3>
