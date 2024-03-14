@@ -96,3 +96,11 @@ ul li:hover .dropdown-content {
   margin: 10%;
   box-shadow: 5px 5px #708090;
 }
+.quemfoiyone{
+  background-color:#F0EEEE;
+  text-align: center;
+  width: 90,6%;
+  border: 3px solid black;
+  padding:60px;
+  margin: 40px;
+}
