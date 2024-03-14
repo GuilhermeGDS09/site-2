@@ -212,18 +212,14 @@ div, .extracurricular {
     .volei1, .volei2, .futsal1, .futsal2, .robotica, .xadrez{
            position: relative;
            overflow: hidden;
-           
- 
+
 }
 
- img, .volei1, .volei2, .futsal1, .futsal2, .robotica, xadrez{
+ img, .volei1, .volei2, .futsal1, .futsal2, .robotica, .xadrez{
            transition: transform 0.5s ease;
            margin: 1px;
-}
-img, .volei1{
-      widht: 85px;
-      height: auto;
-  
+           widht: 85px;
+           height: auto;
 }
 .informacoes {
            position: absolute;
