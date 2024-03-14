@@ -275,7 +275,7 @@ div, .extracurricular {
     color: black;
 }
 .rodape-direitos{
-    width: calc(100% - 20px);
+    width: max-width;
     background-color: black;
     padding: 10px;
     margin: 0px;
@@ -292,7 +292,6 @@ div, .extracurricular {
     }
 }
 <--doctype css cursos-->
-<style>
     body {
         font-family: 'Arial', sans-serif;
         line-height: 1.6;
