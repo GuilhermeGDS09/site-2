@@ -261,9 +261,10 @@ bottom: 30%;
     display: block;
     margin-bottom: 5px;
 }
-
 .form-group input[type="text"],
-.form-group input[type="password"] {
+.form-group input[type="password"],
+.form-group input[type="cgm_code"],
+.form-group input[type="series"]{
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
