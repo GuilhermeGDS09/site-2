@@ -218,10 +218,10 @@ div, .extracurricular {
   .volei1, .volei2, .futsal1, .futsal2, .robotica, .xadrez img{
            transition: transform 0.5s ease;
            margin: 1px;
-           max-width:100%;
-           max-height:100%;
-           width: 300px;
-           height: 200px;
+           max-width:300px;
+           max-height:225px;
+           width: auto;
+           height: auto;
 }
 .informacoes {
            position: absolute;
