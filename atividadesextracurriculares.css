@@ -206,16 +206,19 @@ section#hero{
         opacity: 1;
         right: 0;
       }
+   .extracurricular{
+        background-color: white;
+   }
 div, .extracurricular {
            display: inline-block;
 }
-    .volei1, .volei2, .futsal1, .futsal2, .robotica, .xadrez{
+    .volei1, .volei2, .futsal1, .futsal2, .robotica, .xadrez, .alunomonitor{
            position: relative;
            overflow: hidden;
 
 }
 
-  .volei1, .volei2, .futsal1, .futsal2, .robotica, .xadrez img{
+  .volei1, .volei2, .futsal1, .futsal2, .robotica, .xadrez, .alunomonitor img{
            transition: transform 0.5s ease;
            margin:2px;
            max-width:300px;
@@ -236,7 +239,7 @@ div, .extracurricular {
            transition: transform 0.5s ease;
 }
 
-.volei1:hover .informacoes, .volei2:hover .informacoes, .futsal1:hover .informacoes ,.futsal2:hover .informacoes ,.robotica:hover .informacoes, .xadrez:hover .informacoes   {
+.volei1:hover .informacoes, .volei2:hover .informacoes, .futsal1:hover .informacoes ,.futsal2:hover .informacoes ,.robotica:hover .informacoes, .xadrez:hover .informacoes, .alunomonitor:hover .informacoes   {
           transform: translateY(0);
 }
 /* RODAPÉ */
