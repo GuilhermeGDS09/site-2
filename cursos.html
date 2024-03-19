@@ -76,10 +76,11 @@
 
       // Adicione condições para redirecionar com base na opção selecionada
       if (opcaoSelecionada === "1") {
-        window.location.href = "curso aps.html";
+        window.location.href = "cursos.html";
       } else if (opcaoSelecionada === "2") {
         window.location.href = "curso adm.html";
-      }
+      }if (opcaoSelecionada === "3") {
+        window.location.href = "curso aps.html";
     }
   </script>
 </head>
@@ -88,8 +89,9 @@
 <form>
   <label for="serie">Escolha o curso de interrese:</label>
   <select id="serie" name="serie" required>
-    <option value="1">Análise e Projeto de Sistemas</option>
+    <option value="1">início</option>
     <option value="2">Técnico em Administração</option>
+    <option value="3">Análise e Projeto de Sistemas</option>
   </select>
   <button type="button" onclick="redirecionar()">Ir para o curso</button>
 </form>
