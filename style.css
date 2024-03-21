@@ -196,6 +196,7 @@
     width: relative;
     cursor: pointer;
     margin: 5px;
+    border-radius: 50px;   
   }
   .button span {
     position: relative;
