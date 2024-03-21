@@ -212,13 +212,13 @@ section#hero{
 div, .extracurricular {
            display: inline-block;
 }
-    .esportes, .volei2, .xadrez{
+    .esportes, .futsal2, .xadrez{
            position: relative;
            overflow: hidden;
 
 }
 
-  .esportes, .volei2, .xadrez img{
+  .esportes, .futsal2, .xadrez img{
            transition: transform 0.5s ease;
            margin:2px;
            max-width:300px;
@@ -239,7 +239,7 @@ div, .extracurricular {
            transition: transform 0.5s ease;
 }
 
-.esportes: hover .informacoes, .volei2: hover .informacoes, .xadrez: hover .informacoes{
+.esportes: hover .informacoes, .futsal2: hover .informacoes, .xadrez: hover .informacoes{
           transform: translateY(0);
 }
 /* RODAPÉ */
