@@ -6,7 +6,6 @@
 
 }body {
     margin: 0;
-    padding: 0;
     height: 100vh;
     background-color: #E6E6E6;
     background-size: cover ;
@@ -19,7 +18,6 @@ h2 {
 
 .form-group {
     margin-bottom: 10px;
-    box-sizing: border-box;
 }
 
 label {
@@ -31,7 +29,7 @@ input[type="text"],
 input[type="email"],
 select,
 textarea {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     border: 1px solid #c2c2c2;
     border-radius: 10px;
@@ -204,7 +202,7 @@ header{
         border-radius: 4px;
         background-color: #ffd503;
         font-color: #000000;
-        border:7px, solid;
+        border:2px, solid;
         color: black;
         text-align: center;
         font-size: 21px;
@@ -240,6 +238,10 @@ div, .voleiM {
            display: inline-block;
             padding-bottom: 40px;
            overflow: auto;
+}
+.margin{
+      margin-left: 5px;
+      margin-rigth: 5px;
 }
 /* RODAPÉ */
 .rodape{
