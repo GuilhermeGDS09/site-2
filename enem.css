@@ -101,3 +101,49 @@ button {
   width: 100%;
   height: 25%;
 }
+/* RODAPÉ */
+.rodape{
+    background-color:#fcd74d ;
+    color: black;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+    position: relative;
+    bottom: 0;
+    margin-top: 100px ;
+
+}
+.rodape a{
+    text-decoration: none;
+    color: black;
+}
+.rodape p{
+    margin-bottom: 5px;
+}
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 40px 10px 30px 10px;
+    bottom: 0;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+.rodape span{
+    font-size: 20px;
+    color: black;
+}
+.rodape-direitos{
+    width: 100%;
+    background-color: black;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    color:#FFFF;
+}
