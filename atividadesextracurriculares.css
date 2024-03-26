@@ -215,16 +215,15 @@ div, .extracurricular {
     .esportes {
            position: relative;
            overflow: hidden;
-
+           max-width:300px;
+           max-height:220px;
+           width: auto;
+           height: auto;
 }
 
   .esportes img{
            transition: transform 0.5s ease;
            margin:2px;
-           max-width:300px;
-           max-height:220px;
-           width: auto;
-           height: auto;
 }
 .informacoes {
            position: absolute;
