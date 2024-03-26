@@ -76,7 +76,7 @@ header{
   width: 0%;
   height: 60px;
   max-width: 1200px ;
-  margin: 0 auto;
+  margin: 20px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
