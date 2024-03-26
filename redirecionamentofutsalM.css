@@ -239,6 +239,10 @@ div, .voleiM {
             padding-bottom: 40px;
            overflow: auto;
 }
+.margin{
+      margin-left: 5%;
+      margin-rigth: 5%;
+}
 /* RODAPÉ */
 .rodape{
     background-color:#fcd74d ;
