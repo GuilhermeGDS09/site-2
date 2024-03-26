@@ -240,8 +240,8 @@ div, .voleiM {
            overflow: auto;
 }
 .margin{
-      margin-left: 5%;
-      margin-rigth: 5%;
+      margin-left: 5px;
+      margin-rigth: 5px;
 }
 /* RODAPÉ */
 .rodape{
