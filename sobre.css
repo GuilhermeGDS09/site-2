@@ -38,6 +38,7 @@ ul li:hover .dropdown-content {
   justify-content:space-between;
   align-items:center;
   }
+/* RODAPÉ */
 .rodape{
     background-color:#fcd74d ;
     color: black;
@@ -45,7 +46,10 @@ ul li:hover .dropdown-content {
     width: 100%;
     font-size: 14px;
     font-family: helvetica;
-    position: sticky;
+    position: relative;
+    bottom: 0;
+    margin-top: 100px ;
+
 }
 .rodape a{
     text-decoration: none;
@@ -60,7 +64,8 @@ ul li:hover .dropdown-content {
     width:100%;
     margin: auto;
     align-items: stretch;
-    padding: 60px 10px 40px 10px;
+    padding: 40px 10px 30px 10px;
+    bottom: 0;
 }
 .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
     display: flex;
@@ -72,11 +77,12 @@ ul li:hover .dropdown-content {
     color: black;
 }
 .rodape-direitos{
-    width: calc(100% - 20px);
+    width: 100%;
     background-color: black;
-    padding: 10px;
+    padding: 5px;
     margin: 0px;
     text-align: center;
+    color:#FFFF;
 }
 .sombraBox{
   width: 20%;
