@@ -23,7 +23,7 @@ a:hover{
 }
 /* HEADER styles */
 header{
- 
+
   position: relative;
   padding: 0;
 }
@@ -177,7 +177,7 @@ section#hero{
   border: 1px solid black;
 }
 .menu-linha{
-  
+
   display: inline-block;
   padding-inline-start: 57px;
   line-height: 20px;
@@ -282,10 +282,10 @@ section#hero{
   height: 460px;
   padding: 10px;
   border-radius: 30px;
-  
+
   border: #000;
-  
-  
+
+
 }
 
 .espaco{
@@ -313,7 +313,7 @@ background-color: #E6E6E6;
    font-size: 30px;
    margin-bottom: 1rem;
    background-color: #E6E6E6; 
-   
+
    border-radius: 30px;
    padding: 20px; 
 
@@ -358,6 +358,5 @@ background-color: #E6E6E6;
     top: 35%;
     padding: 12px;
     border-radius: 10px;
-    
+
   }
-  
