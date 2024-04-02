@@ -360,3 +360,8 @@ background-color: #E6E6E6;
     border-radius: 10px;
 
   }
+.topo_pagina h1{
+    position: absolute;
+    align-items: center;
+    top: 1.5%;
+  }
