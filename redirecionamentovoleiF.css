@@ -234,9 +234,9 @@ header{
         opacity: 1;
         right: 0;
       }
-div, .voleiM {
+.voleiM {
            display: inline-block;
-            padding-bottom: 40px;
+            padding-bottom: 5px;
            overflow: auto;
 }
 .margin{
