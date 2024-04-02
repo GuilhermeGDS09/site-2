@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scal=1.0">
-    <link rel="stylesheet" href="areadoaluno.css">
-    
+    <link rel="stylesheet" href="style.css">
+
     <title>Área do aluno</title>
+    <style>
+        /* Adicionando estilo para alinhar os itens da lista lado a lado */
+        ul {
+            padding: 0;
+            list-style-type: none;
+            text-align: center; /* Centralizando os itens */
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 10px; /* Adicionando espaçamento entre os itens */
+        }
+    </style>
 </head>
+
 <body>
     <div class="topo_pagina">
         <div class="spc_yp_logo">
-            <a href="index.html"><img src="https://i.ibb.co/h9xzKzb/46-Sem-Titulo-20240221095037.png" width="60px" height="60" alt="yp_logo.png"></a> 
+            <a href="index.html"><img src="https://i.ibb.co/h9xzKzb/46-Sem-Titulo-20240221095037.png" width="60px" height="60" alt="yp_logo.png"></a>
         </div>
         <h1 style="font-size: 20px; text-align: center; width: 95%;">Colégio YVONE PIMENTEL, C E-EF M</h1>
         <div class="navbar">
@@ -19,44 +34,59 @@
                 <li><a href="Sobre">Sobre</a></li>
                 <li><a href="Matricule-se">Matricule-se</a></li>
                 <li><a href="Contatos">Contatos</a></li>
-              </div>
+            </ul>
+        </div>
         <div class="dropdown_menu">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="Sobre">Sobre</a></li>
-            <li><a href="matricula.html">Matricule-se</a></li>
-            <li><a href="Contatos">Contatos</a></li>
-            <li><a href="login.html">Login</a></li>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Sobre">Sobre</a></li>
+                <li><a href="matricula.html">Matricule-se</a></li>
+                <li><a href="Contatos">Contatos</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
         </div>
-        </div>
-        </div>
-         <div class="menu-linha">
-            <a href= "login.html" target="none" ><button class="button"><span>Login</span></button></a>
-            <a href= "matricula.html" target="none" ><button class="button"><span>Matricule-se</span></button></a>
-            <a href= "index.html" target="none" ><button class="button"><span>Início</span></button></a>
-            <a href= "sobre.html" target="none" ><button class="button"><span>Sobre </span></button></a>
-            <a href= "areadoaluno.html" target="none" > <button class="button"><span>Área do aluno </span></button></a>
-            <a href= "enem.html" target="none" >  <button class="button"><span>Enem </span></button></a>
-            <a href= "atividadesextracurriculares.html" target="none" > <button class="button"><span>Atividades extracurriculares </span></button></a>
-            <a href= "cursos.html" target="none" >  <button class="button"><span>Cursos técnicos </span></button></a>
-            <a href= "apps.html" target="none" >  <button class="button"><span>Apps do Governo </span></button></a>
-         </div>
-    
-    <main>
-       <section id="hero">
-  <br>
-
-  <div class="container">
-        <h1>Lista de Sites</h1>
-        <ul>
-            <li><a href="https://www.escolaparana.org.br/" target="_blank">Escola Paraná</a></li>
-            <li><a href="https://www.areadoaluno.seed.pr.gov.br/" target="_blank">Área do Aluno</a></li>
-            <li><a href="https://classroom.google.com/" target="_blank">Google Classroom</a></li>
-            <li><a href="https://www.inglesparana.seed.pr.gov.br/" target="_blank">Inglês Paraná</a></li>
-            <li><a href="https://pt.khanacademy.org/" target="_blank">Khan Academy</a></li>
-        </ul>
     </div>
- </main>
+
+    <div class="menu-linha">
+        <a href="login.html" target="none"><button class="button"><span>Login</span></button></a>
+        <a href="matricula.html" target="none"><button class="button"><span>Matricule-se</span></button></a>
+        <a href="index.html" target="none"><button class="button"><span>Início</span></button></a>
+        <a href="sobre.html" target="none"><button class="button"><span>Sobre </span></button></a>
+        <a href="areadoaluno.html" target="none"> <button class="button"><span>Área do aluno </span></button></a>
+        <a href="enem.html" target="none"> <button class="button"><span>Enem </span></button></a>
+        <a href="atividadesextracurriculares.html" target="none"> <button class="button"><span>Atividades extracurriculares </span></button></a>
+        <a href="cursos.html" target="none"> <button class="button"><span>Cursos técnicos </span></button></a>
+        <a href="apps.html" target="none"> <button class="button"><span>Apps do Governo </span></button></a>
+    </div>
+
+    <main>
+        <section id="hero">
+            <br>
+
+            <div class="container">
+                <ul>
+                    <li><a href="https://www.escolaparana.org.br/" target="_blank">Escola Paraná</a></li>
+                    <li><a href="https://www.areadoaluno.seed.pr.gov.br/" target="_blank">Área do Aluno</a></li>
+                    <li><a href="https://classroom.google.com/" target="_blank">Google Classroom</a></li>
+                    <li><a href="https://www.inglesparana.seed.pr.gov.br/" target="_blank">Inglês Paraná</a></li>
+                    <li><a href="https://pt.khanacademy.org/" target="_blank">Khan Academy</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
 </body>
+  <img src= "https://play-lh.googleusercontent.com/FAymsAlQIQ6I35v1IwUGqznctFxIlVPPs2ygvjfF-NicxFwA2M6BOPMVIttx57ATYwk"
+
+<!RODAPÉ>
+<footer class="rodape" id="contato">
+    <div class="rodape-div">
+
+        <div class="rodape-div-1">
+            <div class="rodape-div-1-coluna">
+                <!-- elemento -->
+                <span><b>Endereço</b></span>
+                <p>Endereço: Rua Sebastião Malucelli, 
+                
     <!RODAPÉ>
 <footer class="rodape" id="contato">
     <div class="rodape-div">
