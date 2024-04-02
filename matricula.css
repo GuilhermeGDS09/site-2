@@ -199,19 +199,18 @@ header{
     justify-content: center;
       }
 .button {
-        border-radius: 4px;
-        background-color: #ffd503;
-        font-color: #000000;
-        border:2px, solid;
-        color: black;
-        text-align: center;
-        font-size: 21px;
-        padding: 7px;
-        width: relative ;
-        cursor: pointer;
-        margin: 5px;
-      }
-
+  border-radius: 50px;
+  background-color: #ffd503;
+  font-color: #000000;
+  border: 2px solid;
+  color: black;
+  text-align: center;
+  font-size: 21px;
+  padding: 7px;
+  width: relative;
+  cursor: pointer;
+  margin: 5px;
+}
 .button span {
         position: relative;
         transition: 1s;
