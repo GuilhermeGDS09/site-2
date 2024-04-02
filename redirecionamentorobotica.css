@@ -32,6 +32,7 @@ textarea {
     padding: 20px;
     border: 1px solid #c2c2c2;
     border-radius: 10px;
+    align-item: center;
 }
 
 input[type="checkbox"] {
