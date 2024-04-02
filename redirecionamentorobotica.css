@@ -27,9 +27,8 @@ label {
 
 input[type="text"],
 input[type="email"],
-
 textarea {
-    width: 98%;
+    width: 50%;
     padding: 10px;
     border: 1px solid #c2c2c2;
     border-radius: 10px;
@@ -234,11 +233,7 @@ header{
         opacity: 1;
         right: 0;
       }
-div, .voleiM {
-           display: inline-block;
-            padding-bottom: 40px;
-           overflow: auto;
-}
+
 .margin{
       margin-left: 5px;
       margin-rigth: 5px;
