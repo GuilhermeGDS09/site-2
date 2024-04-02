@@ -28,7 +28,7 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 50%;
+    width: calc(99% - 20px); 
     padding: 20px;
     border: 1px solid #c2c2c2;
     border-radius: 10px;
