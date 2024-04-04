@@ -64,6 +64,7 @@ header{
   transition: scale 0.2;
 }
 .action_btn:hover{
+  overflow: hidden;
   scale: 1.05;
   color: #fff;
 }
