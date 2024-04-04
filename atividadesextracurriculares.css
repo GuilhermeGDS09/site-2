@@ -29,7 +29,7 @@ header{
   padding: 0 ;
 }
 .navbar{
-  display: none;
+  overflow: hidden;
   width: 5%;
   height: 60px;
   max-width: 1200px ;
@@ -130,7 +130,7 @@ section#hero{
       display: none;
   }
   .navbar .toggle_btn{
-      display: block;
+      display: none;
   }
 
   .dropdown_menu{
