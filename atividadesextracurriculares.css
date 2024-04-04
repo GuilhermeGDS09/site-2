@@ -29,6 +29,7 @@ header{
   padding: 0 ;
 }
 .navbar{
+  display: none;
   width: 5%;
   height: 60px;
   max-width: 1200px ;
