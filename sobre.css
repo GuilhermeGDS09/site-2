@@ -124,18 +124,14 @@ ul li {
 .containerMaps {
   margin: 20px 0px;
 }
-/* RODAPÉ */
-.rodape{
-    background-color:#ffd503 ;
-    color: black;
-    height: auto;
-    width: 100%;
-    font-size: 14px;
-    font-family: helvetica;
-    position: relative;
-    bottom: 0;
-    margin-top: 100px ;
 
+.containerRodape {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffd503;
+  padding: 50px;
+  font-family: helvetica;
 }
 .rodape a{
     text-decoration: none;
@@ -162,26 +158,18 @@ ul li {
     font-size: 20px;
     color: black;
 }
-.rodape-direitos{
-    width: 100%;
-    background-color: black;
-    padding: 5px;
-    margin: 0px;
-    text-align: center;
-    color:#FFFF;
-}
-/* Styles for mobile devices */
-@media (max-width: 768px) {
-  .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
-    width: calc(50% - 20px);
-    padding: 10px;
+dding: 10px;
   }
 
+.conteudoRodape {
+  text-align: center;
   .rodape-div{
     padding: 60px 0px 40px 0px;
   }
 }
 
+.conteudoRodape > h2 {
+  margin-bottom: 10px;
 .mySlides{
   width: 1900px;
   height: 460px;
@@ -192,81 +180,19 @@ ul li {
 
 
 }
+.conteudoRodape > p {
+  margin-bottom: 10px;
 
-.espaco{
 
-text-align: center;
-width:50%;
-height:500px;
-background-color: #E6E6E6;
-}
-.espaco h1{
- position: absolute;
-  right: 30%;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  background-color: #E6E6E6; 
-  border: 2px solid #000000; 
-  border-radius: 50px;
-  padding: 30px; 
-
-}
-.espaco p{
-   position: absolute;
-   width:max-width;
-   bottom:0%;
-   font-size: 30px;
-   margin-bottom: 1rem;
-   background-color: #E6E6E6; 
-
-   border-radius: 30px;
-   padding: 20px; 
-
+.conteudoRodape > p a {
+  text-decoration: none;
+  color: black;
 }
 
-  .topicos{
-    position: absolute;
-    right: 80%;
-    bottom: 0%;
-    background-color: #E6E6E6 ;
-    ;
-  }
-
-  .topicos2{
-    position: absolute;
-    right: 60%;
-    bottom: 0%;
-    background-color: #E6E6E6 ;
-  }
-  .topicos3{
-  position: absolute;
-  right: 40%;
-  bottom: 0%;
-  background-color: #E6E6E6 ;
-    }
-  .topicos4{
-    position: absolute;
-    right: 20%;
-    bottom: 0%;
-    background-color: #E6E6E6 ;
-  }
-  .esquerdo{
-    position: absolute;
-    top: 35%;
-    left: 1%;
-    padding: 12px;
-   border-radius: 10px;
-  }
-  .direito{
-    position: absolute;
-    right: 1%;
-    top: 35%;
-    padding: 12px;
-    border-radius: 10px;
-
-  }
-.topo_pagina h1{
-    position: absolute;
-    align-items: center;
-    top: 1.5%;
-  }
+.rodape-direitos {
+  color: #ffffff;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+    
