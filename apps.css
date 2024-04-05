@@ -64,7 +64,6 @@ header{
   transition: scale 0.2;
 }
 .action_btn:hover{
-  overflow: hidden;
   scale: 1.05;
   color: #fff;
 }
@@ -103,22 +102,6 @@ header{
   justify-content: center;
 }
 
-/* Hero */
-
-section#hero{
-  height: calc(100vh - 60px);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color:#0000
-}
-
-#hero h1{
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
 
 
 /* responsive deisign */
@@ -128,7 +111,7 @@ section#hero{
       display: none;
   }
   .navbar .toggle_btn{
-      display: none;
+      display: block;
   }
 
   .dropdown_menu{
@@ -206,7 +189,6 @@ section#hero{
         opacity: 1;
         right: 0;
       }
-
 /* RODAPÉ */
 .rodape{
     background-color:#ffd503 ;
@@ -217,7 +199,7 @@ section#hero{
     font-family: helvetica;
     position: relative;
     bottom: 0;
-    margin-top: 100px ;
+    margin-top: 400px ;
 
 }
 .rodape a{
@@ -262,32 +244,77 @@ section#hero{
     .rodape-div{
         padding: 60px 0px 40px 0px;
     }
+  body {
+    font-family: Cambria, serif; /* Alteração da fonte para Cambria */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
 }
-.app {
-  border-radius: 20px;
-  display: block;
-  width: 250px;
-  height: 250px;
-  float: left;
-  padding: 5px;
-  margin: -15px 20px 10px 20%;
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
-.text{
-  display: block;
-  text-align: left;
-  font-style: open-sans;
-  font-size: 20px;
-  color: black;
-  margin-left: 20%;
-  margin-right: 25%;
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+a {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc107; /* amarelo vivo */
+    color: #000; /* preto */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* adicionado transição de cor */
+}
+
+a:hover {
+    background-color: #000; /* preto */
+    color: #fff; /* branco */
+}
 
 }
-.button-app{
-  border-radius: 0px;
-  display: block;
-  width: 250px;
-  height: 80px;
-  padding: 5px;
-  margin-left: 20%;
-  margin: 10px 10px 10px 0;
+.escola {
+  display: inline-block;
+  margin-right: 10px;
+  width: 10%; /* Ajuste conforme necessário */
+  height: auto;
+  border-radius: 5px;
+}
+
+.ingles {
+  display: inline-block;
+  margin-right: 10px;
+  width: 10%; /* Ajuste conforme necessário */
+  height: auto;
+  border-radius: 5px;
+}
+
+.sala {
+  display: inline-block;
+  width: 10%; /* Ajuste conforme necessário */
+  height: auto;
+  border-radius: 5px;
 }
