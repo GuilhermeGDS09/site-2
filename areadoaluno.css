@@ -296,17 +296,25 @@ a:hover {
 }
 
 }
-.escola,
-.ingles,
-.sala {
-  width: 10%; 
+.escola {
+  display: inline-block;
+  margin-right: 10px;
+  width: 10%; /* Ajuste conforme necessário */
   height: auto;
   border-radius: 5px;
 }
 
-.container-centralizado {
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  height: 100vh; 
+.ingles {
+  display: inline-block;
+  margin-right: 10px;
+  width: 10%; /* Ajuste conforme necessário */
+  height: auto;
+  border-radius: 5px;
+}
+
+.sala {
+  display: inline-block;
+  width: 10%; /* Ajuste conforme necessário */
+  height: auto;
+  border-radius: 5px;
 }
