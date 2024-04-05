@@ -296,30 +296,17 @@ a:hover {
 }
 
 }
-.escola {
-  display: block;
-  margin-left: 50px;
-  margin-right: auto;
-  width: 25px; 
+.escola,
+.ingles,
+.sala {
+  width: 10%; 
   height: auto;
   border-radius: 5px;
-  margin-top:50px ;
-
 }
-.sala {
-  display:block ;
-  margin-left: 250px;
-  margin-top: -200px;
-  border-radius: 10px;
-  width: 25%;
-  height: auto;
-}
-.ingles{
 
-display:block;
-margin-left:450px;
-margin-top:-170px;
-border-radius: 10px;
-width:25%;
-height:auto;
+.container-centralizado {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh; 
 }
