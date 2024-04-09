@@ -6,21 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>AREA DO ALUNO</title>
     <meta name="viewport" content="width=device-width, initial-scal=1.0">
-    <link rel="stylesheet" href="areadoaluno.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Área do aluno</title>
-    <style>
-      
-        ul {
-            padding: 0;
-            list-style-type: none;
-            text-align: center;
-        }
-
-        li {
-            display: inline-block;
-            margin-right: 10px; 
-    </style>
+   
 </head>
 
 <body>
@@ -60,35 +49,168 @@
     </div>
 
     <main>
-        <section id="hero">
-            <br>
+      <div class="infos">
+           <h1>Informações e Horários</h1>
+        <p>Todos os alunos do Colégio YVONE PIMENTEL, C E-EF M devem estar devidamente uniformizados e devem estar no colégio dentro do horário de inicio de turno, atrasos ou faltas devem ser justificadas(os) na secretaria ou direção geral do colégio!</p>
+       </div>
+             <div class="container">
+                 
+                 <div class="turno">
+                     <table class="turnos" style="height: 80px" border="1" width="20%">
+                         <tbody>
+                         <tr>
+                             <th style="text-align: center;">Manhã</th>
+                             <th style="text-align: center;">Tarde</th>
+                         </tr>
+                         <tr>
+                             <th style="text-align: center;">7:10 a 12:20</th>
+                             <th style="text-align: center;">13:10 às 18:20</th>
+                         </tr>
+                         </tbody>
+                     </table>
+                 </div>
 
-            <div class="container">
-                <ul>
-                    <li><a href="https://www.escolaparana.org.br/" target="_blank">Escola Paraná</a></li>
-                    <li><a href="https://www.areadoaluno.seed.pr.gov.br/" target="_blank">Área do Aluno</a></li>
-                    <li><a href="https://classroom.google.com/" target="_blank">Google Classroom</a></li>
-                    <li><a href="https://www.inglesparana.seed.pr.gov.br/" target="_blank">Inglês Paraná</a></li>
-                    <li><a href="https://pt.khanacademy.org/" target="_blank">Khan Academy</a></li>
-                </ul>
-            </div>
-        </section>
+                 <div class="tabela">
+                     <table class="horario" style="height: 80px" border="1" width="90%">
+                         <tbody>
+                         <tr>
+                             <th style="text-align: center;">Horários 3°D</th>
+                             <th style="text-align: center;">Seg</th>
+                             <th style="text-align: center;">Ter</th>
+                             <th style="text-align: center;">Qua</th>
+                             <th style="text-align: center;">Qui</th>
+                             <th style="text-align: center;">Sex</th>
+                         </tr>
+                         <tr>
+                             <th style="text-align: center;">1°Aula</th>
+                             <th style="text-align: center;">Jogos Digitais</th>
+                             <th style="text-align: center;">Física</th>
+                             <th style="text-align: center;">Física</th>
+                             <th style="text-align: center;">Matemática</th>
+                             <th style="text-align: center;">Educação Física</th>
+                         </tr>
+                           <th style="text-align: center;">2°Aula</th>
+
+
+                              <th style="text-align: center;">Jogos Digitais</th>
+                              <th style="text-align: center;">NoDesDeSistem </th>
+                              <th style="text-align: center;"> Educação Física </th>
+                              <th style="text-align: center;">Matemática</th>
+                              <th style="text-align: center;">NoDesDeSistem</th>
+
+                            </tr>
+                       <tr>
+                         <th style="text-align: center;">3°Aula</th>
+
+
+                        <th style="text-align: center;">APS</th>
+                        <th style="text-align: center;">APS </th>
+                           <th style="text-align: center;">Computação Gráfica </th>
+                           <th style="text-align: center;">Língua Portuguesa </th>
+                           <th style="text-align: center;">Computação Gráfica </th>
+
+                         </tr>
+                       <th style="text-align: center;">4°Aula</th>
+
+
+                            <th style="text-align: center;">APS</th>
+                             <th style="text-align: center;">Back-end</th>
+                             <th style="text-align: center;">Computação Gráfica</th>
+                             <th style="text-align: center;">Educação Financeira</th>
+                             <th style="text-align: center;">Projeto De Vida</th>
+                        </tr>
+                       <th style="text-align: center;">5°Aula</th>
+
+
+                        <th style="text-align: center;">Matemática</th>
+                          <th style="text-align: center;">Back-end</th>
+                          <th style="text-align: center;">Back-end</th>
+                          <th style="text-align: center;">NoDesDeSistem</th>
+                          <th style="text-align: center;">Língua Portuguesa</th>
+
+                         </tr>
+                       <th style="text-align: center;">6°Aula</th>
+
+
+                        <th style="text-align: center;">Back-end</th>
+                           <th style="text-align: center;">Jogos Digitais</th>
+                           <th style="text-align: center;">Matemática</th>
+                           <th style="text-align: center;">NoDesDeSistem</th>
+                           <th style="text-align: center;">Língua Portuguesa</th>
+                          </tr>
+                         </tbody>
+                     </table>
+                 </div>
+             </div>
+            </table>
+      <BR>
+       <BR>
+       <BR>
+       <BR>
+       <BR>
+    
+      <div class="calculadora"> 
+      <h1>Calculadora de Média de Notas</h1>
+      <label for="nota1">Nota do 1º Trimestre:</label>
+      <input type="number" id="nota1" min="0" max="100"><br><br>
+
+      <label for="nota2">Nota do 2º Trimestre:</label>
+      <input type="number" id="nota2" min="0" max="100"><br><br>
+
+      <label for="nota3">Nota do 3º Trimestre:</label>
+      <input type="number" id="nota3" min="0" max="100"><br><br>
+
+      <button class= "media" onclick="calcularMedia()">Calcular Média</button><br><br>
+
+      <!-- Resultado exibido em uma caixa de texto -->
+      <label  class="resultado" for="resultado">Resultado:</label>
+      <input  class="resultado" type="text" id="resultado" disabled>
+      </div>
+      <script src="script.js"></script>
+      
     </main>
 </body>
-  <img class="escola"src= "https://play-lh.googleusercontent.com/FAymsAlQIQ6I35v1IwUGqznctFxIlVPPs2ygvjfF-NicxFwA2M6BOPMVIttx57ATYwk">
-  
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4K8kmrFJO7qyv2E5ycZU2ME_LDr64PnYSphBOgn_nQQ&s" class="sala">
+ 
 
-  <img src="https://professor.escoladigital.pr.gov.br/sites/professores/arquivos_restritos/files/imagem/2021-08/612939ba97496-ingles_parana.png"class="ingles">
-    
+                    <!RODAPÉ>
+                  <footer class="rodape" id="contato">
+                      <div class="rodape-div">
 
-<!RODAPÉ>
-<footer class="rodape" id="contato">
-    <div class="rodape-div">
+                          <div class="rodape-div-1">
+                              <div class="rodape-div-1-coluna">
+                                  <!-- elemento -->
+                                  <span><b>Endereço</b></span>
+                                  <p>Endereço: Rua Sebastião Malucelli, 1312 - Novo Mundo, Curitiba - PR,</p>
+                              </div>
+                          </div>
 
-        <div class="rodape-div-1">
-            <div class="rodape-div-1-coluna">
-                <!-- elemento -->
-                <span><b>Endereço</b></span>
-                <p>Endereço: Rua Sebastião Malucelli, 
-                
+                          <div class="rodape-div-2">
+                              <div class="rodape-div-2-coluna">
+                                  <!-- elemento -->
+                                  <span><b>Contatos</b></span>
+                                  <p>ctayvonepimentel@seed.pr.gov.br</p>
+                                  <p>+55 (41) 3567-8762</p>
+                              </div>
+                          </div>
+
+                          <div class="rodape-div-3">
+                              <div class="rodape-div-3-coluna">
+                                  <!-- elemento -->
+                                  <span><b>Links</b></span>
+                                  <p><a href="#inicio">início</a></p>
+                                  <p><a href="#sobre">sobre</a></p>
+                                  <p><a href="#matricula">matrícula</a></p>
+                              </div>
+                          </div>
+
+
+                      </div>
+
+                      <div class="rodape-direitos">
+                             <p class="rodape-direitos">Copyright © 2024 – Todos os Direitos Reservados </p>
+                        </div>
+                    </div>
+
+
+                  </footer>
+</html>
